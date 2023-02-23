@@ -21,3 +21,14 @@ h1{
     width: 25vw;
 
 }
+
+.gif{
+
+    width: 5vw;
+}
+
+.list__icone{
+    display: flex;
+    justify-content: center;
+}
+
