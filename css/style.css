@@ -1,0 +1,18 @@
+h2{
+background-color: brown;
+color: white;
+font-weight: bold;
+text-transform: uppercase;
+
+}
+
+h1{
+    font-size: 15em;
+    color: blue;
+    background-color: orange;
+}
+
+.nav__list{
+    display: flex;
+    justify-content: space-between;
+}
