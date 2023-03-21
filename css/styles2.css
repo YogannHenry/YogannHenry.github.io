@@ -221,7 +221,7 @@ transform: none;
 /* ----------------------------Article/card Start---------------------- */
 
 .page2{
-background-color: #007bff;
+
 height: 80vh;
 display: flex;
 flex-direction: column;
@@ -233,7 +233,7 @@ justify-content: center;
 .container {
 max-width: 100vh;
 width: 74em;
-background-color: #8b1919;
+
 padding: 40px 0;
 }
 
