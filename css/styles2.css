@@ -221,7 +221,7 @@ transform: none;
 /* ----------------------------Article/card Start---------------------- */
 
 .page2{
-
+background-color: #f7f7f7;
 height: 80vh;
 display: flex;
 flex-direction: column;
@@ -233,7 +233,7 @@ justify-content: center;
 .container {
 max-width: 100vh;
 width: 74em;
-
+background-color: #f7f7f7;
 padding: 40px 0;
 }
 
@@ -438,7 +438,7 @@ flex-direction: column;
 text-align: left;
 }
 .display__articleApprentissage h4{
-padding-bottom: 1em;
+padding-bottom: 0.5em;
 }
 .article__info {
   margin-bottom: 1rem;
@@ -453,13 +453,49 @@ img {
   width: 3rem;
 }
 
+.image__slide{
+width: 100%;
+height: 100%;
+}
+.button__slide{
+font-weight: bold; 
+color: orange;
+border-radius: 25px;
+box-shadow: 0 0 15px rgba(227, 133, 10, 0.2);
+
+}
+
+
+.hobbie__title{
+position: absolute;
+bottom: 10%;
+text-align: center;
+color: #ffffff;
+font-size: 2em;
+font-weight: bold;
+left: 15%;
+
+}
+
 h4{
   font-weight: bold;
-  font-size: 1.4em;
+  font-size: 1.2em;
   color: orange;
   text-decoration: underline;
 }
 
+h5{
+font-weight: bold;
+font-size: 1.1em;
+color: rgb(68, 54, 30);
+text-decoration: underline;
+}
+
+.images__langue{
+height: auto;
+width: auto;
+padding-bottom: 4rem;
+}
 time {
   color: gray;
   font-size: 0.9em;
@@ -497,6 +533,20 @@ background-color: #000;
 
 }
 
+.image__DadWayIfLife{
+width: 85%;
+border: solid 1px black;  
+}
+
+.link__projet{
+color: #0056b3;
+text-decoration: underline;
+}
+
+.link__projet:hover{
+color: #007bff;
+text-decoration: underline;
+}
 /* ---------------------------------slider hobbie------------ */
 .hobbie {
 position: relative;
@@ -553,10 +603,10 @@ padding: 1.5rem;
 max-width: 100%;
 animation: .6s 2s 1 pop;  
 margin: 1em;
-border: 1px solid #eaeaea;
+border: 2px solid #f8a100;
 max-width: 50em;
 min-width: 50em;
-background-color: #e9eeee;     
+background-color: #fffefb;     
 border-radius: 25px;
 max-height: 65em;
 min-height: 65em;
@@ -573,11 +623,13 @@ display: none;
 font-weight: bold;
 margin-bottom: 1rem;
 text-transform: uppercase;
-color: rgb(118, 115, 115);
+color: rgb(255, 254, 254);
+background-color: orange;
 text-decoration: underline;
 font-size: 2em;  
 margin-top: 15px;
 text-align: center;
+border-radius: 25px;
 }
 
 .pop-Up__title-expérience{
@@ -587,7 +639,7 @@ text-transform: uppercase;
 color: rgb(0, 0, 0);  
 height: 10px;
 font-size: 1em;
-border-top: solid grey 2px;
+border-top: solid orange 2px;
 margin-top: 1rem;
 
 }
@@ -595,7 +647,7 @@ margin-top: 1rem;
 .date{
 color: rgb(252, 251, 251);
 font-weight: bold;
-background-color: rgb(116, 114, 114);
+background-color: #0056b3;
 font-size: 0.8em;
 border-radius: 15px;
 padding-left: 0.5em;
@@ -607,6 +659,7 @@ padding-right: 0.5em;
 padding: 1em;
 margin-top: 1em;
 border-bottom: solid grey 1em;
+font-size: 1.2em;
 }
 
 
@@ -633,8 +686,15 @@ background-color: #e48d30;
 padding: .7rem;
 display: inline-block;
 margin-left: .3rem;
-filter:drop-shadow(2px 2px 1px black)
+filter:drop-shadow(2px 2px 1px black);
+transition: all 0.3s ease;
 }
+
+.btn:hover {
+background-color: #e48d30;
+transform: scale(1.1);
+}
+
 .swiper-navBtn{
 color: #000;
 height: 40px;

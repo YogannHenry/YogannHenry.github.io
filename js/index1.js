@@ -139,7 +139,13 @@ var swiper = new Swiper('.slide-container', {
   slidesPerView: 3,
   direction: getDirection(),
   loop: true,
-  
+  slidesPerGroupSkip: 3,
+  breakpoints: {
+    790: {
+      slidesPerView: 3,
+      slidesPerGroup: 3,
+    },
+  },
   grabCursor: "true",
   centerSlide: "true",
   fade: "true",
@@ -195,5 +201,5 @@ nextBtn2.addEventListener('click', () => {
 
 function updateButtons() {
     prevBtn2.disabled = currentSlide2 === 0;
-    nextBtn2.disabled = currentSlide2 === slides.length - 1;
+    nextBtn2.disabled = currentSlide2 === slides2.length - 1;
 }
