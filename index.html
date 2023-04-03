@@ -6,10 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Présentation yogann Henry</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/styles2.css">
-    <link rel="stylesheet" href="css/test2.css">
-    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/css package/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/introduction.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/slider-hobbie.css">
+    <link rel="stylesheet" href="css/slider-quote.css">
+    <link rel="stylesheet" href="css/pop-up-CV.css">
+    <link rel="stylesheet" href="css/css package/swiper-bundle.min.css">
 
 
 </head>
@@ -17,7 +21,9 @@
 <body>
 
     <header tabindex="0">
-        <div class="test">
+        <div class="page1">
+            <div class="bloc1"></div>
+            <div class="bloc2"></div>
             <h1>Ici<span style="color:white;">.<span style="color:#e06c75;">vous</span>.</span><span
                     style="color:#61afef;">pourrez:</span>("</h1>
             <div class="string">
@@ -31,7 +37,7 @@
         <button id="scroll-button">Scroll down</button>
     </header>
 
-    <div id="nav-container">
+    <div id="nav-container" class="nav__hidde">
 
         <div class="button" tabindex="0">
             <span class="icon-bar"></span>
@@ -40,32 +46,18 @@
         </div>
 
         <main id="nav-content" tabindex="0">
-            <h1 class="header__title">Recherche d'alternance Developpeur Full-Stack Yogann HENRY</h1>
+            <h1 class="header__title">Recherche d'alternance Developpeur Front || Back</h1>
+            <p class="header__nom">Yogann HENRY</p>
             <div class="header__bloc">
-                <!-- <img class="header__profilimage" src="images/profilAvecBackgroundFFVII.png"> -->
-                <div class="header__intro">
-                    <h2>Profil <span>personnel</span></h2>
-                    <p> Passionné par la création et le monde numérique, <strong class="strong"></strong>je suis
-                        actuellement à la recherche d'une
-                        opportunité d'alternance en développement d'application</strong>. Ma dernière expérience
-                        chez
-                        cherchemonnid.com m'a permis de participer activement au processus de création du site, du
-                        parcours et expérience utilisateur, gérer la vente de service et surtout, pris conscience
-                        que je voulais en faire mon métier. Conscient qu'on ne se forme pas au dev en 6 mois, j'ai
-                        intégré l'école certifié O'clock afin de pouvoir poursuivre sur une License en alternance.
-                        Je suis une personne avenante, sociable, flexible et rigoureux, toujours prêt à apprendre et
-                        à contribuer au sein d'une équipe. Si vous cherchez quelqu'un qui peut apporter une vision
-                        fraîche et une forte éthique de travail, je suis votre candidat idéal.
-                    </p>
-                </div>
-                <nav class="header__nav nav">
-                    <!-- Emmet : ul>(li>a)*3 -->
-                    <ul class="nav__list">
-                        <li class="nav__list-item"><a href="#">Plan du site</a></li>
-                        <li class="nav__list-item"><a href="#">Mentions légales</a></li>
-                        <li class="nav__list-item"><a href="contact.html">Contact</a></li>
-                    </ul>
-                </nav>
+                <img class="header__profilimage" src="images/profilAvecBackgroundFFVII.png">
+
+            </div>
+            <div class="nav__icone">
+                <a class="menu__icone" target="_blank" href="https://www.linkedin.com/in/yogann-henry-939192a7/"><img
+                        src="./images/icone menu/pngegg (8).png"></a>
+                <a class="menu__icone" target="_blank" href="https://github.com/YogannHenry?tab=repositories"><img
+                        src="./images/icone menu/github.png"></a>
+                <a class="menu__icone" target="_blank" href="#"><img src="./images/icone menu/contact.png"></a>
             </div>
         </main>
     </div>
@@ -255,7 +247,7 @@
                                 </div>
                                 <div class="display__articleCouche2">
                                     <img src="./images/eikon.png" alt="">
-                                    <h4>Packages: Express - Ejs</h4>                                    
+                                    <h4>Packages: Express - Ejs</h4>
                                 </div>
                                 <div class="display__articleCouche2">
                                     <img
@@ -433,17 +425,23 @@
                             <div class="article__content">
                                 <div class="display__articleCouche2">
                                     <img class="image__DadWayIfLife" src="./images/banniéré haute tostadora.png" alt="">
-                                    <h4 >Dad's way of life</h4>
-                                    <a target="_blank"  class='link__projet' href='https://www.tostadora.fr/dadswayoflife/?utm_source=TradeDoubler&utm_medium=1806294&utm_campaign=CPA&tduid=0d701708b7db35cd5b8db305962268fa'>Boutique Dad's way of life</a> 
+                                    <h4>Dad's way of life</h4>
+                                    <a target="_blank" class='link__projet'
+                                        href='https://www.tostadora.fr/dadswayoflife/?utm_source=TradeDoubler&utm_medium=1806294&utm_campaign=CPA&tduid=0d701708b7db35cd5b8db305962268fa'>Boutique
+                                        Dad's way of life</a>
 
                                     <p class="article__excerpt">Design et vente de t-shirt</p>
                                     <p>Construction d'un site perso en chantier - futur projet principal</p>
                                 </div>
                                 <div class="display__articleCouche2">
                                     <h4>Ce site C.V</h4>
-                                    <p class="article__excerpt">Site en constante évolution avec les nouvelles connaissance acquise. N'hésitez pas à revenir régulièrement ou consulter les maj sur Github</p>
-                                    <a target="_blank" class='link__projet' href='https://github.com/YogannHenry/YogannHenry.github.io/commits/master'>Commit - Github </a> 
-                                </div>                             
+                                    <p class="article__excerpt">Site en constante évolution avec les nouvelles
+                                        connaissance acquise. N'hésitez pas à revenir régulièrement ou consulter les maj
+                                        sur Github</p>
+                                    <a target="_blank" class='link__projet'
+                                        href='https://github.com/YogannHenry/YogannHenry.github.io/commits/master'>Commit
+                                        - Github </a>
+                                </div>
                             </div>
 
                     </article>
@@ -465,27 +463,36 @@
                             <div class="article__content">
                                 <div class="display__articleApprentissage">
                                     <h4>Projet personnel</h4>
-                                    <p class="présentation"> Passionné par la création et le monde numérique, <strong class="strong"></strong>je suis
+                                    <p class="présentation"> Passionné par la création et le monde numérique, <strong
+                                            class="strong"></strong>je suis
                                         actuellement à la recherche d'une
-                                        opportunité d'alternance en développement d'application</strong>. Ma dernière expérience
+                                        opportunité d'alternance en développement d'application</strong>. Ma dernière
+                                        expérience
                                         chez
-                                        cherchemonnid.com m'a permis de participer activement au processus de création du site, du
-                                        parcours et expérience utilisateur, gérer la vente de service et surtout, pris conscience
-                                        que je voulais en faire mon métier. Conscient qu'on ne se forme pas au dev en 6 mois, j'ai
-                                        intégré l'école certifié O'clock afin de pouvoir poursuivre sur une License en alternance.
-                                        Je suis une personne avenante, sociable, flexible et rigoureux, toujours prêt à apprendre et
-                                        à contribuer au sein d'une équipe. Si vous cherchez quelqu'un qui peut apporter une vision
+                                        cherchemonnid.com m'a permis de participer activement au processus de création
+                                        du site, du
+                                        parcours et expérience utilisateur, gérer la vente de service et surtout, pris
+                                        conscience
+                                        que je voulais en faire mon métier. Conscient qu'on ne se forme pas au dev en 6
+                                        mois, j'ai
+                                        intégré l'école certifié O'clock afin de pouvoir poursuivre sur une License en
+                                        alternance.
+                                        Je suis une personne avenante, sociable, flexible et rigoureux, toujours prêt à
+                                        apprendre et
+                                        à contribuer au sein d'une équipe. Si vous cherchez quelqu'un qui peut apporter
+                                        une vision
                                         fraîche et une forte éthique de travail, je suis votre candidat idéal.
                                     </p>
-                                    
+
 
                                 </div>
 
                                 <div class="article__footer">
-                                    <a id="link-pop-up" class="hide__a" href="./images/annexe 2 PROGRAMME_ALTERNANCE.pdf"
-                                        target="_blank">PDF: Programme détaillé</a>
+                                    <a id="link-pop-up" class="hide__a"
+                                        href="./images/annexe 2 PROGRAMME_ALTERNANCE.pdf" target="_blank">PDF: Programme
+                                        détaillé</a>
                                 </div>
-                        </div>
+                            </div>
 
                     </article>
                     <article class="article swiper-slide">
@@ -582,100 +589,114 @@
 
 
         </div>
+        <footer>
+            <div class="footer__position">
+                <!-- Slideshow container -->
+                <div class="slideshow-container">
+
+                    <!-- Full-width slides/quotes -->
+                    <div class="mySlides">
+                        <q>Building The Future And Keeping The Past Alive Are One In The Same Thing</q>
+                        <p class="author">- Solid Snake</p>
+                    </div>
+
+                    <div class="mySlides">
+                        <q>What You Think You See Is Only As Real As Your Brain Tells You It Is </q>
+                        <p class="author">- Solid Snake</p>
+                    </div>
+
+                    <div class="mySlides">
+                        <q>L'espoir est ce qui nous rend forts. C'est pourquoi nous sommes ici. C'est ce avec quoi nous
+                            nous
+                            battons quand tout le reste est perdu.</q>
+                        <p class="author">- Kratos</p>
+                    </div>
+
+                    <div class="mySlides">
+                        <q>Tous les hommes rêvent, mais pas également. Ceux qui rêvent la nuit, dans les recoins
+                            poussiéreux
+                            de leur esprit, se réveillent le jour pour découvrir que c'était de la vanité… Mais les
+                            rêveurs
+                            du jour sont des hommes dangereux, car ils peuvent réaliser leur rêve les yeux ouverts, pour
+                            le
+                            rendre possible.</q>
+                        <p class="author">- T.E. Lawrence</p>
+                    </div>
+
+                    <div class="mySlides">
+                        <q>You Shoot Me In A Dream, You Better Wake Up And Apologize.</q>
+                        <p class="author">- Mr. White</p>
+                    </div>
+
+                    <div class="mySlides">
+                        <q>Evil is evil. Lesser, greater, middling... Makes no difference. The degree is arbitrary. The
+                            definition's blurred. If I'm to choose between one evil and another... I'd rather not choose
+                            at
+                            all.</q>
+                        <p class="author">- Gerald of Rivia</p>
+                    </div>
+
+                    <div class="mySlides">
+                        <q>It's time to kick ass and chew bubble gum. And I'm all out of gum.</q>
+                        <p class="author">- Duke N.</p>
+                    </div>
+
+                    <div class="mySlides">
+                        <q>The only way to do great work is to love what you do.</q>
+                        <p class="author">- Steves Jobs</p>
+                    </div>
+
+                    <div class="mySlides">
+                        <q>Je n'ai pas échoué. Je viens de trouver 10 000 façons qui ne fonctionneront pas.</q>
+                        <p class="author">- Thomas Edison</p>
+                    </div>
+
+                    <div class="mySlides">
+                        <q>Vous savez, moi je ne crois pas qu’il y ait de bonne ou de mauvaise situation. Moi, si je
+                            devais
+                            résumer ma vie aujourd’hui avec vous, je dirais que c’est d’abord des rencontres. Des gens
+                            qui
+                            m’ont tendu la main, peut-être à un moment où je ne pouvais pas, où j’étais seul chez moi.
+                            Et
+                            c’est assez curieux de se dire que les hasards, les rencontres forgent une destinée... Parce
+                            que
+                            quand on a le goût de la chose, quand on a le goût de la chose bien faite, le beau geste,
+                            parfois on ne trouve pas l’interlocuteur en face je dirais, le miroir qui vous aide à
+                            avancer.
+                            Alors ça n’est pas mon cas, comme je disais là, puisque moi au contraire, j’ai pu ; et je
+                            dis
+                            merci à la vie, je lui dis merci, je chante la vie, je danse la vie... je ne suis qu’amour !
+                            Et
+                            finalement, quand des gens me disent « Mais comment fais-tu pour avoir cette humanité ? »,
+                            je
+                            leur réponds très simplement que c’est ce goût de l’amour, ce goût donc qui m’a poussé
+                            aujourd’hui à entreprendre une construction mécanique... mais demain qui sait ? Peut-être
+                            simplement à me mettre au service de la communauté, à faire le don, le don de soi.</q>
+                        <p class="author">- Un Scribe</p>
+                    </div>
+
+                    <!-- Next/prev buttons -->
+
+                    <a class="prev" onclick="plusSlides(-1)"> &#10094;</a>
+                    <a class="next" onclick="plusSlides(1)"> &#10095;</a>
+                </div>
+
+                <!-- Dots/bullets/indicators -->
+                <div class="dot-container">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                    <span class="dot" onclick="currentSlide(6)"></span>
+                    <span class="dot" onclick="currentSlide(7)"></span>
+                </div>
+            </div>
+        </footer>
     </div>
-    <footer>
-        <!-- Slideshow container -->
-        <div class="slideshow-container">
 
-            <!-- Full-width slides/quotes -->
-            <div class="mySlides">
-                <q>Building The Future And Keeping The Past Alive Are One In The Same Thing</q>
-                <p class="author">- Solid Snake</p>
-            </div>
-
-            <div class="mySlides">
-                <q>What You Think You See Is Only As Real As Your Brain Tells You It Is </q>
-                <p class="author">- Solid Snake</p>
-            </div>
-
-            <div class="mySlides">
-                <q>L'espoir est ce qui nous rend forts. C'est pourquoi nous sommes ici. C'est ce avec quoi nous nous
-                    battons quand tout le reste est perdu.</q>
-                <p class="author">- Kratos</p>
-            </div>
-
-            <div class="mySlides">
-                <q>Tous les hommes rêvent, mais pas également. Ceux qui rêvent la nuit, dans les recoins poussiéreux
-                    de leur esprit, se réveillent le jour pour découvrir que c'était de la vanité… Mais les rêveurs
-                    du jour sont des hommes dangereux, car ils peuvent réaliser leur rêve les yeux ouverts, pour le
-                    rendre possible.</q>
-                <p class="author">- T.E. Lawrence</p>
-            </div>
-
-            <div class="mySlides">
-                <q>You Shoot Me In A Dream, You Better Wake Up And Apologize.</q>
-                <p class="author">- Mr. White</p>
-            </div>
-
-            <div class="mySlides">
-                <q>Evil is evil. Lesser, greater, middling... Makes no difference. The degree is arbitrary. The
-                    definition's blurred. If I'm to choose between one evil and another... I'd rather not choose at
-                    all.</q>
-                <p class="author">- Gerald of Rivia</p>
-            </div>
-
-            <div class="mySlides">
-                <q>It's time to kick ass and chew bubble gum. And I'm all out of gum.</q>
-                <p class="author">- Duke N.</p>
-            </div>
-
-            <div class="mySlides">
-                <q>The only way to do great work is to love what you do.</q>
-                <p class="author">- Steves Jobs</p>
-            </div>
-
-            <div class="mySlides">
-                <q>Je n'ai pas échoué. Je viens de trouver 10 000 façons qui ne fonctionneront pas.</q>
-                <p class="author">- Thomas Edison</p>
-            </div>
-
-            <div class="mySlides">
-                <q>Vous savez, moi je ne crois pas qu’il y ait de bonne ou de mauvaise situation. Moi, si je devais
-                    résumer ma vie aujourd’hui avec vous, je dirais que c’est d’abord des rencontres. Des gens qui
-                    m’ont tendu la main, peut-être à un moment où je ne pouvais pas, où j’étais seul chez moi. Et
-                    c’est assez curieux de se dire que les hasards, les rencontres forgent une destinée... Parce que
-                    quand on a le goût de la chose, quand on a le goût de la chose bien faite, le beau geste,
-                    parfois on ne trouve pas l’interlocuteur en face je dirais, le miroir qui vous aide à avancer.
-                    Alors ça n’est pas mon cas, comme je disais là, puisque moi au contraire, j’ai pu ; et je dis
-                    merci à la vie, je lui dis merci, je chante la vie, je danse la vie... je ne suis qu’amour ! Et
-                    finalement, quand des gens me disent « Mais comment fais-tu pour avoir cette humanité ? », je
-                    leur réponds très simplement que c’est ce goût de l’amour, ce goût donc qui m’a poussé
-                    aujourd’hui à entreprendre une construction mécanique... mais demain qui sait ? Peut-être
-                    simplement à me mettre au service de la communauté, à faire le don, le don de soi.</q>
-                <p class="author">- Un Scribe</p>
-            </div>
-
-            <!-- Next/prev buttons -->
-
-            <a class="prev" onclick="plusSlides(-1)"> &#10094;</a>
-            <a class="next" onclick="plusSlides(1)"> &#10095;</a>
-        </div>
-
-        <!-- Dots/bullets/indicators -->
-        <div class="dot-container">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-            <span class="dot" onclick="currentSlide(4)"></span>
-            <span class="dot" onclick="currentSlide(5)"></span>
-            <span class="dot" onclick="currentSlide(6)"></span>
-            <span class="dot" onclick="currentSlide(7)"></span>
-        </div>
-    </footer>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/index1.js"></script>
-
-
 
 </body>
 
