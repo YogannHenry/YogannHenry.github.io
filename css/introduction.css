@@ -41,7 +41,7 @@ header {
 }
 
 .bloc1{
-  background-color: #F0F;
+  background-color: rgba(0,0,0,0);
   width: 60%;
   height: 10%;
   position: absolute;
@@ -50,7 +50,7 @@ header {
 }
 
 .bloc2{
-  background-color: #F0F;
+  background-color: rgba(0,0,0,0);
   width: 60%;
   height: 15%;
   position: absolute;
@@ -140,7 +140,7 @@ header {
 @media (max-width: 1980px){
 
   .bloc1{
-    background-color: #F0F;
+    background-color: rgba(0,0,0,0);
     width: 60%;
     height: 10%;
     position: absolute;
@@ -149,7 +149,7 @@ header {
   }
   
   .bloc2{
-    background-color: #F0F;
+    background-color: rgba(0,0,0,0);
     width: 60%;
     height: 15%;
     position: absolute;
