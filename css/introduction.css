@@ -70,7 +70,7 @@ animation-delay: 0s, 3.5s;
 
 
 .bloc1{
-  background-color: #F0F;
+  background-color: #212121;
   width: 60%;
   height: 10%;
   position: absolute;
@@ -79,7 +79,7 @@ animation-delay: 0s, 3.5s;
 }
 
 .bloc2{
-  background-color: #F0F;
+  background-color: #212121;
   width: 60%;
   height: 15%;
   position: absolute;
@@ -251,7 +251,7 @@ animation-delay: 0s, 3.5s;
 @media (max-width: 1980px){
 
   .bloc1{
-    background-color: #F0F;
+    background-color: #212121;
     width: 60%;
     height: 10%;
     position: absolute;
@@ -260,7 +260,7 @@ animation-delay: 0s, 3.5s;
   }
   
   .bloc2{
-    background-color: #F0F;
+    background-color: #212121;
     width: 60%;
     height: 15%;
     position: absolute;
