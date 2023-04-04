@@ -25,22 +25,52 @@ header {
  
 #scroll-button {
   background-color: #1f2228;
-  border: none;
-  
+  border: none;  
   padding: 15px 20px;
-  text-decoration: none; 
-  /* font-size: 16px; */  
+  text-decoration: none;   
   cursor: pointer;
   position: absolute;
   bottom: 30%;
-  left: 45%;
-
-  
+  left: 45%;  
   font-weight: bold;
 }
 
+.shadow{
+  background-color: #a9b0bd;
+  width: 3em;
+  height: 1em;  
+  position: absolute;
+  border-radius: 50%;
+  left: 47.5%;
+  top: 90%;
+  animation: opacity, shadow;
+animation-duration: 4s, 1s; 
+animation-iteration-count: 1, infinite;
+animation-delay: 0s, 3.5s;
+  
+}
+
+@keyframes shadow {
+ 0% {
+  opacity: 1;
+ }
+
+  50% {
+    scale: 1.1;
+    opacity: 0.5;
+    
+  }
+  100%
+{
+  opacity: 1;
+}
+}
+
+
+
+
 .bloc1{
-  background-color: #212121;
+  background-color: #F0F;
   width: 60%;
   height: 10%;
   position: absolute;
@@ -49,7 +79,7 @@ header {
 }
 
 .bloc2{
-  background-color: #212121;
+  background-color: #F0F;
   width: 60%;
   height: 15%;
   position: absolute;
@@ -149,30 +179,79 @@ header {
 @keyframes goku {
   0% {
     transform: translatey(-70vmin);
-    opacity: 1;
+    
   }
-  100% {
+  80% {
     transform: translatey(0vmin);
-    opacity: 1;
+    
   }
 }
+
 
 @keyframes bounce {
   0% {
     top: 0;
   }
   50% {
-    top: -10px;
+    top: -20px;
   }
   100% {
     top: 0;
   }
 }
 
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+
+  70%{
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.test-fun-shenron{
+  width: 12em;
+  top: 2%;
+  left: 2%;
+  animation: mouvementSerpent 5s linear;       
+  position: absolute;
+  z-index: 4; 
+
+}
+
+@keyframes mouvementSerpent {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  25% {
+    transform: translateX(110vw) translateY(0vh);
+  }
+  35% {
+    transform: translateX(110vw) translateY(50vh) scale(2) ;
+  }
+  50% {
+    transform: translateX(-20vw) translateY(50vh) scale(2) ;
+    
+  }
+  70%{
+    transform: translateX(-100vw) translateY(80vh) scale(10)  ;
+
+  }
+  100% {
+    transform: translateX(110vw) translateY(80vh) scale(9) ;
+  }
+  
+
+}
+
 @media (max-width: 1980px){
 
   .bloc1{
-    
+    background-color: #F0F;
     width: 60%;
     height: 10%;
     position: absolute;
@@ -181,7 +260,7 @@ header {
   }
   
   .bloc2{
-    
+    background-color: #F0F;
     width: 60%;
     height: 15%;
     position: absolute;
