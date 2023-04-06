@@ -52,17 +52,17 @@ animation-delay: 0s, 3.5s;
 
 @keyframes shadow {
  0% {
-  opacity: 1;
+  opacity: 0.5;
  }
 
   50% {
     scale: 1.1;
-    opacity: 0.5;
+    opacity: 1;
     
   }
   100%
 {
-  opacity: 1;
+  opacity: 0.5;
 }
 }
 
