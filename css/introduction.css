@@ -268,20 +268,26 @@ animation-delay: 0s, 3.5s;
     bottom: 32%;
   }
 
+  .shadow{
+   
+    left: 48.5%;
+    
+  }
+
   @keyframes move {
     18.75% {
-      transform: translatey(-2vmin);
+      transform: translatey(-3.5vmin);
       opacity: 1;
     }
     37.5% {
-      transform: translatey(-6vmin);
+      transform: translatey(-7vmin);
       opacity: 1;
     }
     56.25% {
-      transform: translatey(-11vmin);
+      transform: translatey(-10.3vmin);
     }
     75% {
-      transform: translatey(-15.5vmin);
+      transform: translatey(-13.5vmin);
     }
  
     } }

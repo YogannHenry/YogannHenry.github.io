@@ -1,79 +1,80 @@
 /* ----------------------------SlideShowQuote start-------------------------- */
 :root {
-    --text-light-shadow: 0px 2px 4px #000;
-    --text-color-main-theme: #282c34
+  --text-light-shadow: 0px 2px 4px #000;
+  --text-color-main-theme: #282c34
 }
 
 
 
 .slideshow-container {
-  position: sticky;
-  background: #d7d7d7f1;
- 
-  height: 150px;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
+position: sticky;
+background: #d7d7d7f1;
+
+height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
 }
+
+
+.mySlides {
+  display: none;
+  padding: 20px;
+  text-align: center;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: #212121;
+}
+
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* .dot-container {
+  text-align: center;
+  padding: 0.5em;
+  background: #f18b32;
   
   
-  .mySlides {
-    display: none;
-    padding: 80px;
-    text-align: center;
-  }
-  
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -30px;
-    padding: 16px;
-    color: #888;
-    font-weight: bold;
-    font-size: 20px;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    background-color: #212121;
-  }
-  
-  .next {
-    position: absolute;
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-    color: white;
-  }
-  
-  .dot-container {
-    text-align: center;
-    padding: 20px;
-    background: #f18b32;
-    
-  }
-  
-  .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
-  
-  .active, .dot:hover {
-    background-color: #717171;
-  }
-  
-  q {font-style: italic;}
-  .author {color: cornflowerblue;}
-  
-  
-  /* ----------------------------SlideShowQuote end-------------------------- */
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+} */
+
+/* .active, .dot:hover {
+  background-color: #717171;
+} */
+
+q {font-style: italic;}
+.author {color: cornflowerblue;}
+
+
+/* ----------------------------SlideShowQuote end-------------------------- */

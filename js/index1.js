@@ -136,14 +136,14 @@ function showSlides(n) {
 
 /* ----------------------------SlideCard with swiperJs start-------------------------- */
 var swiper = new Swiper('.slide-container', {
-  slidesPerView: 3,
+  slidesPerView: 'auto',
   direction: getDirection(),
   loop: true,
   slidesPerGroupSkip: 3,
   breakpoints: {
     790: {
-      slidesPerView: 3,
-      slidesPerGroup: 3,
+      slidesPerView: 'auto',
+      slidesPerGroup: 1,
     },
   },
   grabCursor: "true",
