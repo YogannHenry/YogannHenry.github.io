@@ -29,6 +29,8 @@
           overflow:visible;
           width: 100vw;
           left: 0%;
+          overflow-y: scroll;
+scroll-behavior: smooth;
                
         
         }
