@@ -4,11 +4,24 @@ header{
 background-color: #212121;
 color: aliceblue;
 font-weight: bold;
-padding: 1em;
+padding: 0.6em;
 padding-left: 3em;
 border-bottom: solid white 1px;
+display: flex;
+justify-content: space-between;
+align-items: center;
 
 }
+
+.acceuil{
+    text-decoration: underline;
+}
+.downloadCV{
+    border: solid 2px rgb(158, 158, 158);
+    padding: 5px;
+    border-radius: 15px;
+}
+
 
 body{
     background-color: #212121;
@@ -51,5 +64,6 @@ body{
     width: 25rem;
     right: 2%;
     position: fixed    ;   
+    bottom: 5%;
 
 }
