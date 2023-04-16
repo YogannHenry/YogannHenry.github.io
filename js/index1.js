@@ -135,7 +135,9 @@ function showSlides(n) {
 
 
 /* ----------------------------SlideCard with swiperJs start-------------------------- */
-var swiper = new Swiper('.slide-container', {
+if (window.innerWidth > 900) {
+  var swiper = new Swiper('.slide-container', {
+  
   slidesPerView: 'auto',
   direction: getDirection(),
   loop: true,
@@ -163,7 +165,7 @@ var swiper = new Swiper('.slide-container', {
       swiper.changeDirection(getDirection());
     },
   },
-});
+})};
 
 function getDirection() {
   var windowWidth = window.innerWidth;

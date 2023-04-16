@@ -29,9 +29,9 @@
           overflow:visible;
           width: 100vw;
           left: 0%;
-          overflow-y: scroll;
+          overflow-y: auto;
 scroll-behavior: smooth;
-               
+               -webkit-overflow-scrolling: touch;
         
         }
     }
