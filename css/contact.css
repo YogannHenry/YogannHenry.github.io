@@ -1,0 +1,55 @@
+
+
+header{
+background-color: #212121;
+color: aliceblue;
+font-weight: bold;
+padding: 1em;
+padding-left: 3em;
+border-bottom: solid white 1px;
+
+}
+
+body{
+    background-color: #212121;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.principal-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12%;
+    border: solid 1px rgb(158, 158, 158);
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 1em;
+}
+
+.contact{
+    top: 50%;
+    display: block;  
+    text-align: center;
+    font-size: 1.2em;
+    color: aliceblue;
+
+}
+
+.contact_nom{
+    padding: 1em;
+}
+
+.contact_mail{
+    padding: 1em;
+}
+
+.contact_telephone{
+    padding: 1em;
+}
+
+.contact-background-image{
+    width: 25rem;
+    right: 2%;
+    position: fixed    ;   
+
+}
