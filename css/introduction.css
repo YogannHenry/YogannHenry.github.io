@@ -295,7 +295,7 @@ animation-delay: 0s, 3.5s;
     } }
 
   
-    @media (max-width: 450px){
+    @media (max-width: 900px){
 
       header{
         opacity: 0;

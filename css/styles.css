@@ -433,12 +433,13 @@ height: 100vh;
   
   .swiper-button-next {
     right: 20px;
-    transform: rotate(90deg);
+    opacity: 0;
   }
 
   .swiper-button-prev {
     left: 20px;
     transform: rotate(90deg);
+    opacity: 0;
   }
 
   .swiper-wrapper {
@@ -453,6 +454,11 @@ height: 100vh;
   max-height: 24em;
   min-height: 24em;
  
+}
+.article .article__couche2{   
+  
+
+width: 17em;
 }
 
 }
