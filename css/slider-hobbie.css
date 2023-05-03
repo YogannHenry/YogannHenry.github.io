@@ -42,5 +42,9 @@
     opacity: 0.5;
     cursor: not-allowed;
   }
+
+  .w-6{
+    color: black;
+  }
   
   /* ---------------------------------slider hobbie End------------ */
